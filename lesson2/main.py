@@ -25,6 +25,9 @@ def substituir(lst,x,y):
     rec = substituir(lst[1:],x,y)
     return [y]+rec if lst[0]==x else lst[1:]+rec
 
+
+
+
 if __name__ == '__main__':
     print(comprimento([1,2,59]))
 
